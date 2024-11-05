@@ -1,0 +1,84 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    background: url(https://images.rawpixel.com/image_800/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvdjU0NmJhdGNoMy1teW50LTM0LWJhZGdld2F0ZXJjb2xvcl8xLmpwZw.jpg);
+  }
+
+  .app-container {
+    max-width: 300px;
+    margin: 50px auto;
+    padding: 20px;
+    background: url(https://t4.ftcdn.net/jpg/02/10/45/95/360_F_210459536_XmLDEcKq2DpeNLVmheuWeu9NM9aGKnih.jpg);
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+
+  h1,
+  h2 {
+    text-align: center;
+  }
+
+  .task-input input,
+  .task-input select,
+  .task-input button {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #e5dada;
+    border-radius: 20px;
+  }
+
+  .task-input button {
+    background-color: #28a745;
+    color: white;
+    cursor: pointer;
+  }
+
+  .task-input button:hover {
+    background-color: #df067d;
+  }
+
+  .task {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 15px;
+    color: white;
+  }
+
+  .task .details {
+    flex-grow: 1;
+  }
+
+  .task .actions {
+    display: flex;
+    gap: 10px;
+  }
+
+  .task.high {
+    background-color: #e70f25;
+  }
+
+  .task.medium {
+    background-color: #ffc107;
+  }
+
+  .task.low {
+    background-color: #13bacd;
+  }
+
+  .task.completed {
+    text-decoration: line-through;
+    background-color: #7070a6;
+  }
+
+  .completed-task {
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 5px;
+    background-color: #f8f9fa;
+  }
